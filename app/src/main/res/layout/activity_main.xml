@@ -6,21 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tv_CobaMiniTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Coba Mini Test"
-        android:textSize="17dp"
-        android:textStyle="bold"/>
-
     <Button
         android:id="@+id/btn_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Button"
-        android:textSize="17dp" />
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_Coba_Mini_Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coba Mini Test"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
         android:text="Halo Dunia"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textSize="17dp"
+        android:textSize="17sp"
         android:textStyle="bold"/>
 
 </RelativeLayout>
